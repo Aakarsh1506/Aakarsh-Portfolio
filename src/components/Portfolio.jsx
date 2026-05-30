@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './Portfolio.css';
-import profilePhoto from '../Assets/Profile.jpeg';
+import profilePhoto from '../assets/Profile.jpeg';
 
 const NAV = ['Home', 'About', 'Projects', 'Experience', 'Skills', 'Contact'];
 
