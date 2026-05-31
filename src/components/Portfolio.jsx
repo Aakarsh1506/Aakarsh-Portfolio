@@ -215,7 +215,7 @@ export default function Portfolio() {
             <div className="exp-period">Apr 2026 — Present</div>
             <div>
               <div className="exp-role">Sub-Head of Technicals</div>
-              <div className="exp-org">Free and Open Source Software(FOSS) Club MPSTME</div>
+              <div className="exp-org">Free and Open Source Software (FOSS) Club MPSTME</div>
             </div>
           </div>
 
