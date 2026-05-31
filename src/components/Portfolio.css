@@ -598,8 +598,48 @@ section {
   .projects-grid { grid-template-columns: 1fr; }
   .skills-grid { grid-template-columns: 1fr; }
   .exp-item { grid-template-columns: 1fr; gap: 8px; }
-  .navbar { max-width: 96vw; flex-wrap: wrap; justify-content: center; }
   section { padding-left: 5vw; padding-right: 5vw; }
   .footer { flex-direction: column; gap: 8px; text-align: center; }
   .home-photo-btns { width: 100%; }
+
+  /* NAVBAR MOBILE */
+  .navbar {
+    top: auto;
+    bottom: 16px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 6px 10px;
+    gap: 0px;
+    width: auto;
+    max-width: 96vw;
+  }
+  .nav-link {
+    font-size: 0.62rem;
+    padding: 6px 8px;
+    letter-spacing: 0.03em;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar {
+    bottom: 12px;
+    padding: 5px 8px;
+  }
+  .nav-link {
+    font-size: 0.58rem;
+    padding: 5px 6px;
+  }
+  .photo-frame {
+    width: 260px;
+    height: 260px;
+  }
+  .home-photo-btns {
+    width: 260px;
+  }
+  .home-name {
+    font-size: clamp(3rem, 14vw, 4.5rem);
+  }
+  .sec-title {
+    font-size: clamp(2rem, 10vw, 3rem);
+  }
 }
