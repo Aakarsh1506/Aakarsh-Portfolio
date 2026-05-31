@@ -117,7 +117,7 @@ export default function Portfolio() {
             </p>
             <p>
               Outside academics, I stay plugged into the tech community through{' '}
-              <span className="about-highlight">FOSS</span> and{' '}
+              <span className="about-highlight">FOSS MPSTME</span> and{' '}
               <span className="about-highlight">ACM MPSTME</span>, collaborating and contributing
               alongside brilliant peers. When not coding, I&apos;m likely exploring new frameworks or
               sketching my next side project.
@@ -215,7 +215,7 @@ export default function Portfolio() {
             <div className="exp-period">Apr 2026 — Present</div>
             <div>
               <div className="exp-role">Sub-Head of Technicals</div>
-              <div className="exp-org">FOSS MPSTME</div>
+              <div className="exp-org">Free and Open Source Software(FOSS) Club MPSTME</div>
             </div>
           </div>
 
@@ -223,7 +223,7 @@ export default function Portfolio() {
             <div className="exp-period">Sep 2025 — May 2026</div>
             <div>
               <div className="exp-role">Executive, Technical Dept.</div>
-              <div className="exp-org">ACM MPSTME</div>
+              <div className="exp-org">Association for Computing Machinery (ACM) MPSTME</div>
             </div>
           </div>
         </div>
