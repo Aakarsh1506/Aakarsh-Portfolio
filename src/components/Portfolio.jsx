@@ -81,7 +81,7 @@ export default function Portfolio() {
               <button className="btn-contact" onClick={() => scrollTo('Contact')}>
                 Contact
               </button>
-              <a className="btn-resume" href="/Aakarsh_Singh_Resume.pdf" download>
+              <a className="btn-resume" href="/Aakarsh-Resume.pdf" download>
                 Resume <span className="btn-arrow">↓</span>
               </a>
             </div>
