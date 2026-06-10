@@ -195,6 +195,27 @@ export default function Portfolio() {
             <span className="project-tag">React</span>
             <span className="project-tag">Node.js</span>
           </a>
+
+          <a
+            href="https://study-ai-forge.netlify.app"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="project-card"
+          >
+            <div className="project-top">
+              <div className="project-emoji">📚</div>
+              <div className="project-arrow">↗</div>
+            </div>
+            <div className="project-name">StudyForge</div>
+            <p className="project-desc">
+              A full-stack student productivity web app with AI-powered study planning, notes,
+              assignment tracking, and a topic-restricted AI chatbot — built with React, Node.js,
+              and MySQL.
+            </p>
+            <span className="project-tag">React</span>
+            <span className="project-tag">Node.js</span>
+            <span className="project-tag">MySQL</span>
+          </a>
         </div>
       </section>
 
